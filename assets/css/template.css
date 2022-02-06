@@ -1,3 +1,8 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 body{
 margin: 0%;  
 padding: 0%;
@@ -58,9 +63,96 @@ nav a:hover{
 }
 
 #banner {
-    background-image:url('../images/hospital-predio.jpg') ;
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/hospital-predio.png') ;
     background-position: center;
     background-size: cover;
     height: 670px;
+
+}
+
+.column{
+  flex-direction: column;
+
+}
+
+.banner_headline{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  }
+
+.banner_headline h1{
+  color: #DA2F47;
+  font-size: 70px;
+  text-shadow: 0px 2px 0px #000000;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.banner_headline h2{
+  color: #DA2F47;
+  font-size: 30px;
+  text-shadow: 0px 1px 0px #000000;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.banner_options{
+  height: 210px;
+  display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+flex: 1;
+color:#FFFFFF;
+padding:20px;
+}
+
+.banner1{
+  background-color: #d55465;
+
+}
+.banner2{
+  background-color: #ff344f;
+
+}
+.banner3{
+  background-color: #fd425b;
+
+}
+.banners_title{
+
+  font-size: 21px;
+}
+
+.banner_desc{
+font-size: 12px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.banner_options a{
+
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.atendimento{
+  font-size: 12px;
+  border-bottom: #FFFFFF;
 
 }
