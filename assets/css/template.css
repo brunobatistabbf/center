@@ -225,6 +225,25 @@ flex: 1;
   border: 1px solid #ff5c5c;
   font-size: 15px;
 }
+/* ultimas noticias */
+#widget_content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  
+
+}
+
+article{
+margin: 15px;
+
+}
+
+.flex {
+display: flex;
+min-width: 300px;
+
+}
 
 article .news_data{
 display: flex;
@@ -248,9 +267,8 @@ padding: 10px;
 margin-left: 3px;
 }
 
-.news_thumb{
-
-margin-top: 30px;
+.news_thumbnail{
+margin-top: 20px;
 
 }
 
@@ -266,24 +284,15 @@ color: #000000;
 font-size: 14px;
 line-height: 20px;
 color: #000000;
+margin-bottom: 20px;
+width: 300px;
+height: auto;
+
 
 }
 
 article a{
   text-decoration: none;
-}
-
-.flex {
-display: flex;
-flex-wrap: wrap;
-min-width: 300px;
-
-}
-
-article{
-  flex: 1;
-
-  
 }
 
 .images_news{
