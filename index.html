@@ -5,7 +5,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,user-scalable=0" />
     <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".meuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
     <title>Med Center</title>
+
 </head>
 
 <body>
@@ -17,13 +31,11 @@
             </div>
             <div class="menu">
                 <nav>
-
                     <div class="meuMobile">
                         <div class="linha_menu"></div>
                         <div class="linha_menu"></div>
                         <div class="linha_menu"></div>
                     </div>
-
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
                         <li><a href="">SOBRE</a></li>
@@ -35,12 +47,8 @@
         </div>
 
         <div class="containerHeader">
-            <div class="logo">
-                <a href=""><img id="logo" src="assets/images/logo.png" /></a>
-            </div>
             <div class="menu">
                 <nav>
-
                     <div class="meuMobile">
                         <div class="linha_menu"></div>
                         <div class="linha_menu"></div>
